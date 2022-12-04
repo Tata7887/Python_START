@@ -13,3 +13,12 @@
 [2, 3, 5, 6]
 [12, 15]
 """
+
+import random
+size = int(input('Введите размерность '))
+str_1 = [random.randint(1, 9) for i in range(size)]
+print(str_1)
+str_2 = []
+for i in range((size + 1) // 2):
+    str_2.append(str_1[i] * str_1[-i-1])
+print(str_2)

@@ -11,3 +11,10 @@
 [5, 1, 5, 2, 7, 11]
 14
 """
+
+size = int(input('Введите размерность '))
+import random
+
+str_1 = [random.randint(1, 9) for i in range(size)]
+print(str_1)
+print(sum(str_1[1::2]))
