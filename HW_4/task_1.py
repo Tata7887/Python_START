@@ -11,3 +11,14 @@
 38
 [2, 19]
 """
+n = int(input('Введите N '))
+i = 2
+my_list = []
+while i <= n:
+    if n % i == 0:
+        my_list.append(i)
+        n = n / i
+    else:
+        i += 1
+
+print(my_list)
