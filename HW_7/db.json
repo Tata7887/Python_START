@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "first_name": "Иванов ",
+    "last_name": "Сергей",
+    "phone_number": "9267847534",
+    "birthda": "11.12.1983",
+    "workplace": "ооо бам"
+  },
+  {
+    "id": 2,
+    "first_name": "Демидов ",
+    "last_name": "Геннадий",
+    "phone_number": "9876543903",
+    "birthda": "30.05.1986",
+    "workplace": "гор больница"
+  }
+]
